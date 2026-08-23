@@ -1,0 +1,1 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.navlinks');if(menu)menu.addEventListener('click',()=>links.classList.toggle('open'));document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>links?.classList.remove('open')));
